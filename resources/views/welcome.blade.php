@@ -54,20 +54,21 @@
       <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
         <!--Left Col-->
         <div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
-          <p class="uppercase tracking-loose w-full">What business are you?</p>
+          <p class="uppercase tracking-loose w-full"></p>
           <h1 class="my-4 text-5xl font-bold leading-tight">
-            Main Hero Message to sell yourself!
+            Perpustakaan Digital, Pengetahuan Dalam Genggaman!
           </h1>
           <p class="leading-normal text-2xl mb-8">
-            Sub-hero message, not too long and not too short. Make it just right!
-          </p>
-          <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-            Subscribe
-          </button>
+        Temukan, baca, dan pinjam buku favoritmu kapan saja, di mana saja.          </p>
+            <a href="{{ route('register') }}">
+            <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                Daftar Sekarang
+            </button>
+            </a>
         </div>
         <!--Right Col-->
         <div class="w-full md:w-3/5 py-6 text-center">
-        <img class="w-full md:w-4/5 z-50" src="{{ asset('image/perpus.jpg') }}" alt="Perpustakaan">
+        <img class="w-full md:w-4/5 z-50" src="{{ asset('image/perpustakaan.png') }}" alt="Perpustakaan">
         </div>
       </div>
     </div>
@@ -93,7 +94,7 @@
     <section class="bg-white border-b py-8">
       <div class="container max-w-5xl mx-auto m-8">
         <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
-          Title
+          Selamat Datang di Perpustakaan Digital
         </h2>
         <div class="w-full mb-4">
           <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
@@ -101,16 +102,11 @@
         <div class="flex flex-wrap">
           <div class="w-5/6 sm:w-1/2 p-6">
             <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
-              Lorem ipsum dolor sit amet
-            </h3>
+            Akses mudah ke ribuan koleksi buku, di mana pun dan kapan pun. </h3>
             <p class="text-gray-600 mb-8">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+              Perpustakaan Digital adalah solusi modern untuk kebutuhan bacaan Anda. Dengan koleksi lengkap dari berbagai kategori — fiksi, nonfiksi, ilmiah, hingga literatur pendidikan — semua tersedia dalam satu platform praktis.
               <br />
               <br />
-
-              Images from:
-
-              <a class="text-pink-500 underline" href="https://undraw.co/">undraw.co</a>
             </p>
           </div>
           <div class="w-full sm:w-1/2 p-6">
@@ -394,15 +390,12 @@
           <div class="w-full sm:w-1/2 p-6 mt-6">
             <div class="align-middle">
               <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
-                Lorem ipsum dolor sit amet
+                Baca Lebih Mudah, Pinjam Lebih Cepat
               </h3>
               <p class="text-gray-600 mb-8">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+            Nikmati pengalaman membaca dan meminjam buku tanpa antri, tanpa batasan ruang dan waktu. Cukup satu klik, pengetahuan ada di tangan Anda.
                 <br />
                 <br />
-                Images from:
-
-                <a class="text-pink-500 underline" href="https://undraw.co/">undraw.co</a>
               </p>
             </div>
           </div>
@@ -412,8 +405,8 @@
     <section class="bg-white border-b py-8">
       <div class="container mx-auto flex flex-wrap pt-4 pb-12">
         <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
-          Title
-        </h2>
+        MULAI MENGGUNAKAN PERPUSTAKAAN     
+       </h2>
         <div class="w-full mb-4">
           <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
         </div>
@@ -421,21 +414,23 @@
           <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
             <a href="#" class="flex flex-wrap no-underline hover:no-underline">
               <p class="w-full text-gray-600 text-xs md:text-sm px-6">
-                xGETTING STARTED
-              </p>
+                MULAI MENGGUNAKAN PERPUSTAKAAN     
+             </p>
               <div class="w-full font-bold text-xl text-gray-800 px-6">
-                Lorem ipsum dolor sit amet.
+                Temukan dunia pengetahuan dalam genggaman Anda.
               </div>
               <p class="text-gray-800 text-base px-6 mb-5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+                Daftar dan masuk ke akun perpustakaan digital untuk menikmati kemudahan akses ribuan koleksi buku. Mulai dari novel, jurnal ilmiah, hingga buku pelajaran — semua tersedia secara online.            
               </p>
             </a>
           </div>
           <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
             <div class="flex items-center justify-start">
-              <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                Action
-              </button>
+            <a href="{{ route('register') }}">
+            <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                Daftar Sekarang
+            </button>
+            </a>
             </div>
           </div>
         </div>
@@ -443,20 +438,20 @@
           <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
             <a href="#" class="flex flex-wrap no-underline hover:no-underline">
               <p class="w-full text-gray-600 text-xs md:text-sm px-6">
-                xGETTING STARTED
-              </p>
+                CARI DAN PINJAM BUKU DENGAN MUDAH  
+            </p>
               <div class="w-full font-bold text-xl text-gray-800 px-6">
-                Lorem ipsum dolor sit amet.
+                Nikmati proses pencarian dan peminjaman buku yang cepat dan sederhana.
               </div>
               <p class="text-gray-800 text-base px-6 mb-5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+                Gunakan fitur pencarian cerdas untuk menemukan buku favorit Anda. Lalu, cukup klik untuk meminjam dan langsung baca dari mana saja, kapan saja.
               </p>
             </a>
           </div>
           <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
             <div class="flex items-center justify-center">
               <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                Action
+                Jelajahi Koleksi
               </button>
             </div>
           </div>
@@ -465,20 +460,20 @@
           <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
             <a href="#" class="flex flex-wrap no-underline hover:no-underline">
               <p class="w-full text-gray-600 text-xs md:text-sm px-6">
-                xGETTING STARTED
-              </p>
+                KELOLA DAFTAR BACAAN PRIBADI 
+                </p>
               <div class="w-full font-bold text-xl text-gray-800 px-6">
-                Lorem ipsum dolor sit amet.
+                Buat dan simpan koleksi buku favorit Anda dalam satu tempat.
               </div>
               <p class="text-gray-800 text-base px-6 mb-5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
-              </p>
+            Tambahkan buku ke daftar baca Anda, atur kategori sendiri, dan lanjutkan membaca kapan pun Anda mau — tanpa kehilangan jejak             
+             </p>
             </a>
           </div>
           <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
             <div class="flex items-center justify-end">
               <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                Action
+                Mulai Membaca
               </button>
             </div>
           </div>
@@ -509,17 +504,19 @@
     </svg>
     <section class="container mx-auto text-center py-6 mb-12">
       <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-white">
-        Call to Action
+        Ayo Mulai Membaca Hari Ini!
       </h2>
       <div class="w-full mb-4">
         <div class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
       </div>
       <h3 class="my-4 text-3xl leading-tight">
-        Main Hero Message to sell yourself!
+        Temukan ribuan buku dalam genggamanmu. Gratis, mudah, dan tanpa batas.    
       </h3>
-      <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-        Action!
-      </button>
+        <a href="{{ route('register') }}">
+        <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                Gabung Sekarang
+        </button>
+        </a>
     </section>
     <!--Footer-->
     <footer class="bg-white">
