@@ -8,5 +8,8 @@
 
 #Muhammad Akbar Kurniawan 20220140155 : https://drive.google.com/file/d/1lTS5Rtn1XY1t25m79nfTHwO-_GckN5zn/view?usp=sharing
 
+#Muhammad Agus Kurniawan 20220140202 : [Resum20220140202.pdf](https://github.com/user-attachments/files/21069878/Resum20220140202.pdf)
+
+
 
 ![image](https://github.com/user-attachments/assets/380349c9-912c-4aaa-aafe-19686a691d96)
