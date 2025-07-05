@@ -1,10 +1,12 @@
+#Kelompok 2
+
 #Draft Paper : [Draft-Paper-Perpustakaan-PWF.docx](https://github.com/user-attachments/files/21063485/Draft-Paper-Perpustakaan-PWF.docx)
 
 #Resume
 
 #Muhamad Hilal Fakhri 20220140151 : [Resume PWF - 20220140151.docx](https://github.com/user-attachments/files/21069751/Resume.PWF.-.20220140151.docx)
 
-#Alfandi Alamashach 20220140152 : https://drive.google.com/file/d/1s6TJPgqlBl9oVZZl2jRMBEh8YenUHGNN/view?usp=sharing
+#Alfandi Alamshach 20220140152 : https://drive.google.com/file/d/1s6TJPgqlBl9oVZZl2jRMBEh8YenUHGNN/view?usp=sharing
 
 #Muhammad Akbar Kurniawan 20220140155 : https://drive.google.com/file/d/1lTS5Rtn1XY1t25m79nfTHwO-_GckN5zn/view?usp=sharing
 
